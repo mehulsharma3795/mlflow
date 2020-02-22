@@ -133,6 +133,7 @@ if __name__ == "__main__":
         image1 =  plot_enet_descent_path(X,y, l1_ratio, plot_file)
         image2 = plot_2(data,plot2)
         
-        mlflow.log_artifact(plot_file)                  
+        mlflow.log_artifact(plot_file) 
+        mlflow.log_artifact(plot2)
 
         mlflow.sklearn.log_model(lr, "model")
