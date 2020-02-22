@@ -31,7 +31,7 @@ def eval_metrics(actual, pred):
     r2 = r2_score(actual, pred)
     return rmse, mae, r2
 
-def plot_2(data):
+def plot_2(data,plot2):
     fig = plt.figure(1)
     ax = plt.gca()
     plt.plot(data.chlorides)
@@ -131,7 +131,7 @@ if __name__ == "__main__":
         plot_file = "wine_quality.png"
         plot2 = "chlorides.png"
         image1 =  plot_enet_descent_path(X,y, l1_ratio, plot_file)
-        image2 = plot_2(data)
+        image2 = plot_2(data,plot2)
         
         mlflow.log_artifact(plot_file)                  
 
