@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Mehul%20Sharma/mlflow/mlruns/0/3c322ea2d8634d77b243ddff13e09642/artifacts
+end_time: 1582405105598
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 3c322ea2d8634d77b243ddff13e09642
+run_uuid: 3c322ea2d8634d77b243ddff13e09642
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1582405105095
+status: 3
+tags: []
+user_id: Mehul Sharma
